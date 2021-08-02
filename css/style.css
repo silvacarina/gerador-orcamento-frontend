@@ -1,0 +1,100 @@
+body {
+    font-family: 'Quicksand', sans-serif;
+    margin: 0 10px;
+    height: 100vh;
+}
+
+.cabecalho {
+    padding: 10px 0 20px;
+    border-bottom: 1px solid rgb(202, 202, 202);
+}
+
+.cabecalho_container {
+    width: 100%;
+}
+
+.cabecalho_img {
+    display: block;
+    margin: 20px auto;
+}
+
+.cabecalho_campo_texto, .cabecalho_botao {
+    width: 100%;
+    box-sizing: border-box;
+    height: 40px;
+    margin-top: 10px;
+    padding: 0 8px;
+}
+
+.cabecalho_botao {
+    color: white;
+    background: rgb(101, 177, 126);
+    border-radius: 5px;
+    border: 0;
+}
+
+.conteudo_titulo {
+    background: rgb(179, 179, 179);
+    color: white;
+    text-align: center;
+}
+
+/*--------- TABELA GERAL ---------
+*/
+.tabela {
+    width: 100%;
+}
+
+.tabela th {
+    text-align: left;
+    padding-bottom: 5px;
+}
+
+.tabela td {
+    padding: 10px 5px;
+}
+
+.tabela tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/*--------- TABELA SERVICOS/PRODUTOS ---------
+*/
+.conteudo_detalhes, .conteudo_data {
+    text-align: center;
+}
+
+.conteudo_data {
+    font-size: 14px;
+}
+
+.tabela_servicos tr:last-child td {
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.tabela_servicos tr:last-child td:first-child {
+    text-align: right;
+}
+
+.acoes {
+    padding: 20px 0;
+    display: flex;
+}
+
+.botao_voltar, .botao_orcamento {
+    border: 0;
+    width: 60%;
+    height: 40px;
+    display: block;
+    margin: 0 auto;
+    border-radius: 5px;
+    background: #2f84ac;
+    color: white;
+}
+
+.botao_voltar {
+    margin-right: 5px;
+    background: #d8d8d8;
+    color: #000000;
+}
