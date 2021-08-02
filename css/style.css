@@ -58,6 +58,27 @@ body {
     background-color: #f2f2f2;
 }
 
+/*--------- TABELA CLIENTES ---------
+*/
+
+.acao {
+    text-align: center;
+}
+
+.botao_deletar {
+    border: 0;
+    padding: 0;
+    background: none;
+}
+
+.icone_deletar path {
+    fill: #e42929;
+}
+
+.icone_editar path {
+    fill: #747070;
+}
+
 /*--------- TABELA SERVICOS/PRODUTOS ---------
 */
 .conteudo_detalhes, .conteudo_data {
