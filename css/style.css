@@ -34,9 +34,10 @@ body {
 }
 
 .conteudo_titulo {
-    background: rgb(179, 179, 179);
+    background: #747474;
     color: white;
     text-align: center;
+    padding: 8px;
 }
 
 /*--------- TABELA GERAL ---------
